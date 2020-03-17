@@ -7,4 +7,4 @@ applications:
     services:
       - mysqldb
     buildpacks:
-      - https://github.com/cloudfoundry/java-buildpack.git
+      - https://github.com/barkurguru/empdbcloud.git
