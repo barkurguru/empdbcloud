@@ -1,0 +1,10 @@
+applications:
+  - name: EMPDBCLOUD
+    memory: 768M
+    instances: 1
+    path: target\empdbcloud.jar
+    random-route: true
+    services:
+      - mysqldb
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack.git
